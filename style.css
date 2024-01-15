@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.todo-app {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+#addTodoForm {
+    display: flex;
+}
+
+#todoInput {
+    flex-grow: 1;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-right: 10px; /* Add padding to the right side of the todo item */
+}
+
+.todo-item span {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.delete-btn {
+    width: 70px;
+    height: 30px;
+    background-color: red;
+    cursor: pointer;
+    color: white; /* Set text color to white or your preferred color */
+    text-align: center; /* Center-align the text */
+    line-height: 15px; /* Set line-height equal to the button height for vertical centering */
+    border: none;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.delete-btn:hover {
+    background-color: darkred; /* Change color on hover if desired */
+}

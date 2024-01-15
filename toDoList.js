@@ -38,7 +38,6 @@ form.addEventListener('submit', (e) => {
     let task = addInput.value;
     if (task && task.length < 21) {
         storage.push(task);
-        console.log(task.length);
     }
     else {
         alert("Not correct value");
